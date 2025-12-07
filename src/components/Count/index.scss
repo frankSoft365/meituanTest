@@ -1,9 +1,16 @@
 .goods-count {
   font-size: 16px;
   display: inline-flex;
-  justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
+
+  .count {
+    height: 20px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0 10px 0 10px;
+  }
 
   .minus,
   .plus {
@@ -12,15 +19,21 @@
     background-size: 20px 20px;
     position: relative;
   }
+
   .minus {
-    margin-right: 12.5px;
-    background-image: url(https://zqran.gitee.io/images/waimai/minus.png);
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url(https://raw.githubusercontent.com/frankSoft365/images/9bc52194702348e3285a58d18f070680b3578961/remove_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png);
     background-repeat: no-repeat;
     background-position: center center;
   }
+
   .plus {
-    margin-left: 12.5px;
-    background-image: url(https://zqran.gitee.io/images/waimai/plus.png);
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: url(https://raw.githubusercontent.com/frankSoft365/images/9e19fcc9b08cd79c9418c16f7f4cd15049a96fef/add_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png);
     background-repeat: no-repeat;
     background-position: center center;
   }
